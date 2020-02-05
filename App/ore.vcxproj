@@ -212,7 +212,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\;..\OREAnalytics;..\OREData;..\QuantExt;..\QuantLib</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\;..\OREAnalytics;..\OREData;..\QuantExt;..\QuantLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PrecompiledHeaderFile />
       <PrecompiledHeaderOutputFile />
       <ProgramDataBaseFileName>$(IntDir)\%(RelativeDir)</ProgramDataBaseFileName>
@@ -224,7 +224,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\OREAnalytics\lib;..\OREData\lib;..\QuantExt\lib\;..\QuantLib\lib\</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\OREAnalytics\lib;..\OREData\lib;..\QuantExt\lib\;..\QuantLib\lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
       <LargeAddressAware>true</LargeAddressAware>
     </Link>
